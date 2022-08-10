@@ -6,17 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Internet Security by Zscaler</title>
-<script language="JavaScript">var defLang = 'en_US'
-    const queryString = window.location.search;
-    console.log(queryString);
-    const urlParams = new URLSearchParams(queryString);
-    const continueURL = urlParams.get('url');
-    document.getElementsByName("_sm_url")[0].setAttribute('value',continueURL);
-    const category = urlParams.get('cat');
-    document.getElementsByName("_sm_cat")[0].setAttribute('value',category);
-    const zsq = urlParams.get('zsq').split("zsq")[0];
-    document.getElementsByName("_sm_rid")[0].setAttribute('value',zsq);
-  </script>
+<script language="JavaScript">var defLang = 'en_US'</script>
 <!--London Stock Exchange-->
 <style type="text/css">
 body {
@@ -414,18 +404,19 @@ Request method cautioned for category <B>Webmail</B>
 <hr>
 </td></tr>
 <tr><td class="eu_co">
-As per default policies, This is not an approved application. Hence this access will be revoked soon. If it is business required, please follow the risk exception process. At present you can Press the "Continue" button to access the site anyway or press the "Back" button on your browser to go back
+You are trying to access applicated which is not an approved one. Hence this access will be revoked within 15 days. If this is business required, please raise it with Security team using below link.
+Press the "Continue" button to access the site anyway or press the "Back" button on your browser to go back
 </td></tr>
 <tr><td class="eu_co">
 <table width="100%" cellspacing="0" cellpadding="0">
 <tbody><tr>
 <td width="50%" style="width: 50%;padding-bottom:0;padding-left:0" align="left">
 <div class="f_btn">
-<form id="continue_action" method="GET" action="https://gateway.zscaler.net:443/_sm_ctn">
-<input type="hidden" name="_sm_url" value="">
-<input type="hidden" name="_sm_rid" value="">
-<input type="hidden" name="_sm_cat" value="">
-<input type="submit" value="Continue" id="submitButton">
+<form method="GET" action="https://gateway.zscaler.net:443/_sm_ctn">
+<input class="btn" type="submit" value="Continue">
+<input type="hidden" name="_sm_url" value="https://gmail.com/">
+<input type="hidden" name="_sm_rid" value="RQ6nJ6ZrPjJ3H0QcNNPcZWQNDrQJq3J6qTHQTMR">
+<input type="hidden" name="_sm_cat" value="Webmail">
 </form>
 </div>
 </td>
@@ -449,4 +440,4 @@ Your organization has selected Zscaler to protect you from internet threats.
 </div>
 </div>
 </body></html>
-<!-- 894916 2 69 0 1659284284 192 https://gmail.com/ -->
+<!-- 818542 2 69 0 1660132146 192 https://gmail.com/ -->
